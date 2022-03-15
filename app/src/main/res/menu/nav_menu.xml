@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_mammals"
+        android:icon="@drawable/ic_fox"
+        android:title="Mamalia" />
+
+    <item
+        android:id="@+id/navigation_reptile"
+        android:icon="@drawable/ic_turtle"
+        android:title="Reptil"/>
+
+    <item
+        android:id="@+id/navigation_pisces"
+        android:icon="@drawable/ic_fish"
+        android:title="Hewan Laut"/>
+
+    <item
+        android:id="@+id/navigation_aves"
+        android:icon="@drawable/ic_bird"
+        android:title="Burung"/>
+</menu>
