@@ -46,7 +46,7 @@ object DataAnimalpedia {
         "Anjing atau anjing domestik (Canis lupus familiaris) adalah mamalia yang telah mengalami domestikasi dari serigala sejak 15.000 tahun yang lalu,[2] bahkan kemungkinan sudah sejak 100.000 tahun yang lalu berdasarkan bukti genetik berupa penemuan fosil dan tes DNA.[3] Penelitian lain mengungkap sejarah domestikasi anjing yang belum begitu lama.[4][5][6]\n" +
                 "\n" +
                 "Anjing telah berkembang menjadi ratusan ras dengan berbagai macam variasi. Warna rambut anjing bisa beraneka ragam, mulai dari putih sampai hitam, juga merah, abu-abu (sering disebut \"biru\"), dan cokelat\n"+"\n"+"Selain itu, anjing memiliki berbagai jenis rambut. Rambut anjing bisa lurus atau keriting, dan bertekstur kasar hingga lembut seperti benang wol.",
-        "Gajah merupakan hewan herbivora yang dapat ditemui di berbagai habitat, seperti sabana, hutan, gurun, dan rawa-rawa. Mereka cenderung berada di dekat air.\n"+ "\n" + "Gajah dianggap sebagai spesies kunci karena dampaknya terhadap lingkungan. Hewan-hewan lain cenderung menjaga jarak dari gajah, dan predator-predator seperti singa, harimau. hyena, dan anjing liar biasanya hanya menyerang gajah muda. Gajah betina cenderung hidup dalam kelompok keluarga, yang terdiri dari satu betina dengan anak-anaknya atau beberapa betina yang berkerabat beserta anak-anak mereka. Kelompok ini dipimpin oleh individu gajah yang disebut matriark, yang biasanya merupakan betina tertua. Gajah memiliki struktur kelompok fisi-fusi, yaitu ketika kelompok-kelompok keluarga bertemu untuk bersosialisasi.",
+        "Gajah merupakan hewan herbivora yang dapat ditemui di berbagai habitat, seperti sabana, hutan, gurun, dan rawa-rawa. Mereka cenderung berada di dekat air.\n"+ "\n" + "Gajah dianggap sebagai spesies kunci karena dampaknya terhadap lingkungan. Hewan-hewan lain cenderung menjaga jarak dari gajah, dan predator-predator seperti singa, harimau. hyena, dan anjing liar biasanya hanya menyerang gajah muda.\n" + "\n" + "Gajah betina cenderung hidup dalam kelompok keluarga, yang terdiri dari satu betina dengan anak-anaknya atau beberapa betina yang berkerabat beserta anak-anak mereka. Kelompok ini dipimpin oleh individu gajah yang disebut matriark, yang biasanya merupakan betina tertua. Gajah memiliki struktur kelompok fisi-fusi, yaitu ketika kelompok-kelompok keluarga bertemu untuk bersosialisasi.",
         "Kucing peliharaan atau kucing rumah adalah salah satu predator terhebat di dunia. Kucing ini dapat membunuh atau memakan beberapa ribu spesies, kucing besar biasanya kurang dari 100.\n" + "\n" + "Tetapi karena ukurannya yang kecil, kucing tidak begitu berbahaya bagi manusia. Satu-satunya bahaya yang dapat timbul adalah kemungkinan terjadinya infeksi rabies akibat gigitan kucing dan juga cakaran dari kuku kucing yang sangat perih dan menyakitkan. Kucing dapat berakibat fatal bagi suatu ekosistem yang bukan tempat tinggal alaminya. Pada beberapa kasus, kucing berperan atau menyebabkan kepunahan. Kucing menyergap dan melumpuhkan mangsa dengan cara yang mirip dengan singa dan harimau, menggigit leher mangsa dengan gigi taring yang tajam sehingga melukai saraf tulang belakang atau menyebabkan mangsa kehabisan napas dengan merusak tenggorokan."
     )
 
@@ -90,9 +90,9 @@ object DataAnimalpedia {
 
     val liveReptile = arrayOf(
         "Air Tawar",
-        "Di semua Habitat",
-        "Di Semua Habitat",
-        "Di Semua Habitat"
+        "Hutan",
+        "Darat",
+        "Darat"
     )
 
     val foodReptile = arrayOf(

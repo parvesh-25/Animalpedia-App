@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment.PiscesFragment">
+    tools:context=".fragment.PiscesFragment"
+    android:background="@color/grey_bg">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            tools:listitem="@layout/row_item_blue" />
+            tools:listitem="@layout/row_item" />
 
         <FrameLayout
             android:layout_width="match_parent"

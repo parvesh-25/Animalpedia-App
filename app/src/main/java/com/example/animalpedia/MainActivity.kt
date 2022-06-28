@@ -1,7 +1,6 @@
 package com.example.animalpedia
 
 import android.os.Bundle
-import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
@@ -16,8 +15,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
-
-
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -35,13 +32,5 @@ class MainActivity : AppCompatActivity() {
             )
         )
         setupActionBarWithNavController(navHostFragment.navController, appBarConfiguration)
-
     }
-
-//    // menampilkan menu bar atas
-//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-//        menuInflater.inflate(R.menu.menu_home, menu)
-//        return super.onCreateOptionsMenu(menu)
-//    }
-
 }
