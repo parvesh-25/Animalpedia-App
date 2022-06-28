@@ -8,21 +8,21 @@
     <fragment
         android:id="@+id/navigation_mammals"
         android:name="com.example.animalpedia.fragment.MamaliaFragment"
-        android:label="fragment_mammals"
+        android:label="Mamalia"
         tools:layout="@layout/fragment_mammals" />
     <fragment
         android:id="@+id/navigation_reptile"
         android:name="com.example.animalpedia.fragment.ReptiliaFragment"
-        android:label="fragment_reptile"
+        android:label="Reptil"
         tools:layout="@layout/fragment_reptile" />
     <fragment
         android:id="@+id/navigation_pisces"
         android:name="com.example.animalpedia.fragment.PiscesFragment"
-        android:label="fragment_pisces"
+        android:label="Hewan Laut"
         tools:layout="@layout/fragment_pisces" />
     <fragment
         android:id="@+id/navigation_aves"
         android:name="com.example.animalpedia.fragment.AvesFragment"
-        android:label="fragment_aves"
+        android:label="Unggas"
         tools:layout="@layout/fragment_aves" />
 </navigation>

@@ -25,33 +25,33 @@
         </layer-list>
     </item>
 
-    <item android:state_pressed="true">
-        <layer-list>
-            <!-- SHADOW -->
-            <item>
-                <shape>
-                    <solid android:color="@color/black"/>
-                    <corners android:radius="19dp"/>
+<!--    <item android:state_pressed="true">-->
+<!--        <layer-list>-->
+<!--            &lt;!&ndash; SHADOW &ndash;&gt;-->
+<!--            <item>-->
+<!--                <shape>-->
+<!--                    <solid android:color="@color/black"/>-->
+<!--                    <corners android:radius="19dp"/>-->
 
-                </shape>
-            </item>
-            <!-- BUTTON -->
-            <item android:bottom="5dp">
-                <shape>
-                    <padding android:bottom="5dp"/>
-                    <gradient
-                        android:startColor="@color/tosca_green"
-                        android:endColor="#8CB0AA"
-                        android:angle="270" />
-                    <corners
-                        android:radius="19dp"/>
-                    <padding
-                        android:left="10dp"
-                        android:top="10dp"
-                        android:right="5dp"
-                        android:bottom="10dp"/>
-                </shape>
-            </item>
-        </layer-list>
-    </item>
+<!--                </shape>-->
+<!--            </item>-->
+
+<!--            <item android:bottom="5dp">-->
+<!--                <shape>-->
+<!--                    <padding android:bottom="5dp"/>-->
+<!--&lt;!&ndash;                    <gradient&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:startColor="@color/tosca_green"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:endColor="#8CB0AA"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:angle="270" />&ndash;&gt;-->
+<!--&lt;!&ndash;                    <corners&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:radius="19dp"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <padding&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:left="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:top="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:right="5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:bottom="10dp"/>&ndash;&gt;-->
+<!--                </shape>-->
+<!--            </item>-->
+<!--        </layer-list>-->
+<!--    </item>-->
 </selector>

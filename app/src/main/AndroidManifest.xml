@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Animalpedia">
         <activity
-            android:name=".testActicity"
-            android:exported="true" />
+            android:name=".adapter.contohActivity"
+            android:exported="false" />
         <activity
             android:name=".DetailActivity"
             android:exported="false" />

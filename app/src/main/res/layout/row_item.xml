@@ -2,13 +2,16 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="150dp"
-    android:layout_height="169dp"
-    android:layout_margin="22dp"
+    android:layout_width="165dp"
+    android:layout_height="180dp"
     android:clickable="true"
+    android:layout_marginStart="22dp"
+    android:layout_marginEnd="22dp"
+    android:layout_marginTop="22dp"
     android:focusable="true"
-    app:cardBackgroundColor="@color/blue"
-    app:cardCornerRadius="15dp">
+    app:cardBackgroundColor="@color/row_bg"
+    app:cardCornerRadius="15dp"
+    android:elevation="10dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -21,21 +24,23 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="6dp"
             android:layout_marginEnd="20dp"
-            app:layout_constraintBottom_toTopOf="@id/txt_name"
+            app:layout_constraintBottom_toTopOf="@id/tv_name"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/img_whale" />
+            tools:src="@tools:sample/avatars"
+            />
 
         <TextView
-            android:id="@+id/txt_name"
+            android:id="@+id/tv_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
             android:layout_marginEnd="6dp"
             android:layout_marginBottom="6dp"
             android:gravity="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="tosca_green">#BBE3DC</color>
-    <color name="red">#FF7777</color>
-    <color name="yellow">#F9FA9B</color>
+
     <color name="gray">#F0F3F3</color>
     <color name="dark_gray">#383838</color>
     <color name="blue">#BBE7FF</color>
     <color name="primary_variant">#527871</color>
-    <color name="green">#DDFFA5</color>
+
     <color name="tosca">#D0FCFF</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFF</color>
     <color name="pastel_blue">#58949C</color>
     <color name="dark_pastel_blue">#3E6F76</color>
+    <color name="grey_bg">#EFECEC</color>
+    <color name="row_bg">#424040</color>
+    <color name="brown">#65350F</color>
+    <color name="red">#FF0000</color>
+
 </resources>
