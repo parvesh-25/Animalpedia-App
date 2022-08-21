@@ -6,12 +6,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.animalpedia.DetailActivity
 import com.example.animalpedia.data.Animalpedia
-import com.example.animalpedia.databinding.RowItemBinding
+import com.example.animalpedia.databinding.RowItemYellowBinding
 
 class AnimalpediaAdapter(private val listAnimalpedia: ArrayList<Animalpedia>) :
     RecyclerView.Adapter<AnimalpediaAdapter.MyViewHolder>() {
+    inner class MyViewHolder(val binding: RowItemYellowBinding): RecyclerView.ViewHolder(binding.root) {
 
-    inner class MyViewHolder(val binding: RowItemBinding): RecyclerView.ViewHolder(binding.root)
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)= MyViewHolder (
         RowItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -32,4 +33,5 @@ class AnimalpediaAdapter(private val listAnimalpedia: ArrayList<Animalpedia>) :
     }
 
     override fun getItemCount(): Int = listAnimalpedia.size
+
 }
